@@ -24,7 +24,7 @@ body, html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #F2F2F2;
+  background-color: #848484;
   width: 100%;
 }
 
@@ -38,8 +38,12 @@ body, html {
 .right {
   flex: 38%;
   padding: 15px;
-  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
 
 #portrait{
  display: block;
@@ -53,8 +57,6 @@ body, html {
     flex: 100%;
   }
 }
-
-
 
 footer{
   display: grid;
@@ -118,17 +120,83 @@ footer{
   }
 }
 
+
+.main_text{
+    font-family:sans-serif;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.flex-offer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-offer-item{
+    text-align: center;
+    margin: 2% 1% 4% 1%;
+    width: 48%;
+    border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+    .flex-offer-item {
+        flex: 100%;
+    }
+}
+
+.heading{
+    width: 100%;
+    height: 30vh;
+    padding-top: 8vh;
+    text-align: center;
+}
+
+.heading > h1{
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 8px;
+    margin: 0 8% 0 8%;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-shadow: 2px 2px #ff0000;
+}
+
+@media (max-width: 800px) {
+    .heading{
+        padding-top: 7vh;
+    }
+
+    .heading > h1{
+        font-size: 34px;
+        font-weight: bold;
+        margin: 0 4% 0 4%;
+    }
+}
+
+
+.heading-content{
+    text-align: center;
+    padding-top: 11vh;
+    border-style: solid;
+    border-width: 8px;
+    margin: 40px;
+
+}
+
 </style>
 <body>
 
 
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<div class="navbar" id="navbar">
   <div class="w3-bar w3-theme-d3 w3-xlarge w3-card" id="topnav">
-    <a href="#home" class="w3-bar-item w3-button w3-wide w3-text-black" style="font-family:italic;font-weight:bold">Christopher Kendi | Erfolgstransformation</a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide w3-text-black" style="font-family:italic;font-weight:bold">Christopher Kendi</a>
     <a style="float:right" href="#contact" class="w3-bar-item w3-button w3-hide-small w3-text-black">Kontakt</a>
-	  <a style="float:right" href="#offer" class="w3-bar-item w3-button w3-hide-small w3-text-black">Transformation</a>
+    <a style="float:right" href="#offer" class="w3-bar-item w3-button w3-hide-small w3-text-black">Angebot</a>
+    <a style="float:right" href="#pillar" class="w3-bar-item w3-button w3-hide-small w3-text-black">Transformation</a>
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-text-black" onclick="openSidebar()">
         <i class="fa fa-bars"></i>
     </a>
@@ -137,33 +205,44 @@ footer{
 
 <nav class="w3-sidebar w3-bar-block w3-theme-d3 w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="sidenav">
   <a href="javascript:void(0)" onclick="closeSidebar()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-text-black">Schließen</a>
-  <a href="#offer" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Transformation</a>
+  <a href="#pillar" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Transformation</a>
+  <a href="#offer" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Angebot</a>
   <a href="#contact" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Kontakt</a>
 </nav>
 
 <!-- Header with full-height image -->
-<header id="home">
- <video style="width:100%" src="header_video.mp4" alt="Video von einem Hotel" muted autoplay loop>
- </video>
+<header class="heading" id="home">
+    <h1>ERFOLGSTRANSFORMATION</h1>
 </header>
 
-<div class="welcome">
-    <div class="left ">
+<div class="welcome w3-light-grey">
+    <div class="left">
       <h3>Herzlich Willkommen und vielen Dank für Ihren Besuch !</h3>
-      <h1 style="font-family:sans-serif">Lebe Deine grenzenlosen Möglichkeiten Deiner Großartigkeit !</h1>
+      <h1 class="main_text">Lebe Deine grenzenlosen Möglichkeiten Deiner Großartigkeit !</h1>
       <div>
         <p>Ich heiße Christopher Kendi und ich zeige Menschen ihr unendliches Potential auf allen Ebenen auf, vermittle Ihnen Wissen sowie <strong>wirksame</strong>,
-		 <strong>einfache</strong> und <strong>nachhaltige</strong>  Methoden,  mit denen die grenzenlosen Möglichkeiten des Lebens <strong>machtvoll</strong> abrufbar sind.</p>
+		 <strong>einfache</strong> und <strong>nachhaltige</strong>  Methoden,  mit denen Sie die grenzenlosen Möglichkeiten des Lebens <strong>machtvoll</strong> abrufen können.</p>
+      </div>
+      <div>
+        <h4>Was bedeutet Erfolgstransformation?</h4>
+        <p>Erfolgstransformation bedeutet vom aktuellen IST-ZUSTAND zu Ihrem gewünschten ZIEL-ZUSTAND zu wandeln.
+           Eine fundamentale und nachhaltig starke Entwicklung Ihrer Persönlichkeit, zu Ihrem gewünschten Ergebnis mit der gewünschten Wirkung.</p>
       </div>
     </div>
     <div class="right">
-      <img id="portrait" src="Profil_website.jpeg" alt="Profilbild von Christopher Kendi" >
+      <div class="right-content">
+          <img id="portrait" src="Profil_website.jpeg" alt="Profilbild von Christopher Kendi">
+      </div>
+      <div class="right-content">
+          <a style="border-radius: 4px; margin-top: 6px;" href="aboutme.html" class="w3-button w3-black">Mehr über mich erfahren</a>
+      </div>
+
     </div>
 </div>
 
 
 <!-- Team Section -->
-<div class="w3-container" style="padding:70px 16px" id="offer">
+<div class="w3-container" style="padding:70px 16px" id="pillar">
   <h2 class="w3-center">Transformationssäulen :</h2>
   <hr class="underline">
   <div class="flexbox w3-grayscale" style="margin-top:64px">
@@ -174,7 +253,7 @@ footer{
     </div>
   <div class="flex-item w3-card w3-light-grey">
           <i class="fas fa-brain w3-jumbo" style="padding:10px;"></i>
-          <p class="w3-xxlarge" style="font-weight:bold;font-family:sans-serif">Mental und Resilienz Training</p>
+          <p class="w3-xxlarge" style="font-weight:bold;font-family:sans-serif">Mentale Kontrolle</p>
           <p class="w3-large" style="font-weight:bold;font-family:sans-serif">Eine unaufhaltbare und unbesiegbare mentale Stärke erlangen</p>
   </div>
   <div class="flex-item w3-card w3-light-grey">
@@ -200,20 +279,34 @@ footer{
 
 
 <!-- Contact Section -->
-<div class="container w3-light-grey" style="padding:50px 16px" id="contact">
-  <h3 class="w3-center">Kontakt</h3>
- <!-- <p class="w3-center w3-large">Senden Sie mir eine Nachricht: </p>-->
-  <div class="w3-center" style="margin-top:48px">
-    <p><i class="fas fa-map-marker-alt fa-fw w3-xxlarge"></i> Bergstraße 33/11, 8600 Bruck an der Mur</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge"></i><a href="tel:+436643024436">0664 30 24 436</a></p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge"> </i><a href="mailto:office@erfolgstransformation.com">office@erfolgstransformation.com</a></p>
-  </div>
-  <div class="social-media">
-    <a href="https://de-de.facebook.com/christopher.kendi" class="facebook"><i class="fab fa-facebook"></i></a>
-    <a href="https://www.instagram.com/chris_k3.0/" class="instagram"><i class="fab fa-instagram"></i></a>
-  </div>
+<div class="flex-offer" >
+    <div class="flex-offer-item w3-light-grey" style="padding:50px 16px" id="offer" >
+        <!-- <p class="w3-center w3-large">Senden Sie mir eine Nachricht: </p>-->
+        <div class="w3-center" style="margin-top:48px">
+            <h4>Mein Transformationsangebot für Sie :</h4>
+            <br>
+            Da jeder Mensch individuelle Bedürfnisse, Ansprüche und Ziele verfolgt, freue ich mich Ihnen, in einem kostenfreien Erstgespräch,
+            Ihr Investment für ein glückliches, erfolgreiches und erfülltes Leben anbieten zu dürfen.
 
+        </div>
+    </div>
+    <div class="flex-offer-item w3-light-grey" style="padding:50px 16px" id="contact">
+        <h3 class="w3-center">Kontakt</h3>
+        <!-- <p class="w3-center w3-large">Senden Sie mir eine Nachricht: </p>-->
+        <div class="w3-center" style="margin-top:48px">
+            <p><i class="fas fa-map-marker-alt fa-fw w3-xxlarge"></i> Bergstraße 33/11, 8600 Bruck an der Mur</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge"></i><a href="tel:+436643024436">0664 30 24 436</a></p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge"> </i><a href="mailto:office@erfolgstransformation.com">office@erfolgstransformation.com</a></p>
+        </div>
+        <div class="social-media">
+            <a href="https://de-de.facebook.com/christopher.kendi" class="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/chris_k3.0/" class="instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
 </div>
+
+
+
 
 <footer>
    <div class="container-footer">
@@ -236,6 +329,22 @@ function openSidebar() {
 function closeSidebar() {
     sidenav.style.display = "none";
 }
+
+window.onscroll = function() {stickyNav()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+
+function stickyNav() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}
+
+
 
 </script>
 
