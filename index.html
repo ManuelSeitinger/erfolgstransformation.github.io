@@ -168,7 +168,7 @@ footer{
 
 @media (max-width: 800px) {
     .heading{
-        padding-top: 8vh;
+        padding-top: 15vh;
     }
 
     .heading > h1{
@@ -310,8 +310,6 @@ footer{
 </div>
 
 
-
-
 <footer>
    <div class="container-footer">
      <a href="impressum.html" class="w3-wide w3-text-black">Impressum</a>
@@ -322,8 +320,6 @@ footer{
 
 <script>
 
-
-
 function openSidebar() {
   var x = document.getElementById("sidenav");
   if (x.style.display === "block") {
@@ -333,25 +329,8 @@ function openSidebar() {
   }
 }
 
-
-
-
 function closeSidebar() {
     sidenav.style.display = "none";
-}
-
-window.onscroll = function() {stickyNav()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-
-function stickyNav() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
-    }
 }
 
 
