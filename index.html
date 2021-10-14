@@ -173,6 +173,7 @@ footer{
         font-weight: bold;
         margin: 0 2% 0 2%;
         padding: 4px;
+	animation: reveal-small 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
     }
 }
 
@@ -195,6 +196,11 @@ footer{
     80% { letter-spacing: 10px;}
     100% { background-size: 500% 500%}
 }
+	
+@keyframes reveal-small {
+    80% { letter-spacing: 10px;}
+    100% { background-size: 200% 200%}
+}	
 </style>
 <body>
 
