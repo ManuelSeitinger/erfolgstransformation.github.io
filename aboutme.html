@@ -24,6 +24,13 @@
     font-weight: bold;
   }
 
+  #portrait{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
   @media (max-width: 700px) {
     .left, .right {
       flex: 100%;
@@ -66,10 +73,8 @@
   </div>
 </div>
 
-<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none background-color: #848484 " id="sidenav">
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; background-color: #848484 " id="sidenav">
   <a href="javascript:void(0)" onclick="closeSidebar()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-text-black">Schließen</a>
-  <a href="#offer" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Angebot</a>
-  <a href="#contact" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Kontakt</a>
 </nav>
 
 <div class="container-header w3-light-grey">
