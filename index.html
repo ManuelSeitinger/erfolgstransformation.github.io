@@ -47,6 +47,17 @@ body, html {
   align-items: center;
 }
 
+.myWork{
+    display: flex;
+}
+
+.myWorkLeft{
+   flex:50%;
+}
+
+.myWorkRight{
+  flex:50%
+}
 
 #portrait{
  display: block;
@@ -157,7 +168,7 @@ footer{
 
 .heading > h2{
     margin: 0 8% 0 8%;
-    font-size: xxx-large;
+    font-size: 120px;
     font-weight: bold;
     animation: reveal 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
 }
@@ -197,7 +208,7 @@ footer{
 }
 
 @keyframes reveal-small {
-    80% { letter-spacing: 3px;}
+    80% { letter-spacing: 2px;}
     100% { background-size: 100% 100%}
 }
 </style>
@@ -210,8 +221,10 @@ footer{
   <div class="w3-bar  w3-xlarge w3-card" id="topnav">
     <a href="#home" title="HOME - Christopher Kendi Homepage" class="w3-bar-item w3-button w3-wide" style="font-family:italic;font-weight:bold;color: #d10000;">Christopher Kendi</a>
     <a style="float:right" href="#contact" title="Kontakt - Christopher Kendi kontaktieren" class="w3-bar-item w3-button w3-hide-small w3-text-black">Kontakt</a>
+      <a style="float:right" href="aboutme.html" title="Christopher Kendi - Mehr über mich erfahren" class="w3-bar-item w3-button w3-hide-small w3-text-black">Über mich</a>
     <a style="float:right" href="#offer" title="Angebot - Angebot für Dich von Christopher Kendi" class="w3-bar-item w3-button w3-hide-small w3-text-black">Angebot</a>
       <a style="float:right" href="#pillar" title="Transformation - Die 4 Säulen der Transformation" class="w3-bar-item w3-button w3-hide-small w3-text-black">Coaching</a>
+
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-text-black" onclick="openSidebar()">
         <i class="fa fa-bars"></i>
     </a>
@@ -222,6 +235,7 @@ footer{
   <a href="javascript:void(0)" onclick="closeSidebar()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-text-black">Schließen</a>
   <a href="#pillar" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Coaching</a>
   <a href="#offer" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Angebot</a>
+  <a href="aboutme.html" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Über mich</a>
   <a href="#contact" onclick="closeSidebar()" class="w3-bar-item w3-button w3-text-black">Kontakt</a>
 </nav>
 
@@ -235,20 +249,43 @@ footer{
       <h3>Herzlich Willkommen und vielen Dank für Deinen Besuch !</h3>
       <h1 class="main_text">Lebe Die grenzenlosen Möglichkeiten Deiner Großartigkeit !</h1>
       <div>
-        <p>Ich heiße Christopher Kendi und ich zeige Menschen ihr unendliches Potential auf allen Ebenen auf, vermittle Ihnen Wissen sowie <strong>wirksame</strong>,
+        <p>Mein Name ist Christopher Kendi und ich zeige Dir Dein unendliches Potential auf allen Ebenen auf, vermittle  Wissen sowie <strong>wirksame</strong>,
 		 <strong>einfache</strong> und <strong>nachhaltige</strong>  Methoden,  mit denen Du die grenzenlosen Möglichkeiten des Lebens <strong>machtvoll</strong> abrufen kannst.</p>
       </div>
         <div>
             <p>
-                Persönlichkeitstraining, um die beste Version Deines Selbst zu erschaffen und ein glückliches, erfolgreiches, sowie ein erfülltes Leben zu leben.
-                Absolutes Bewusstsein, Gelassenheit, Harmonie, Motivation, mentale und emotionale Stärke, Selbstmanagement, Selbstliebe und vieles mehr, sind die Resultate Deiner Erfolgstransformation.
+                Persönlichkeitstraining und ganzheitliche Gesundheitsförderung, um die beste Version Deines Selbst zu erschaffen und ein glückliches, erfolgreiches, sowie ein erfülltes Leben zu leben.
             </p>
         </div>
       <div>
         <h4>Was bedeutet Erfolgstransformation?</h4>
-        <p>Erfolgstransformation bedeutet vom aktuellen IST-ZUSTAND zu Deinem gewünschten ZIEL-ZUSTAND zu wandeln.
+        <p>Erfolgstransformation bedeutet vom aktuellen IST-ZUSTAND zu Deinem gewünschten ZIEL-ZUSTAND erfolgreich zu wandeln.
            Eine fundamentale und nachhaltig starke Entwicklung Deiner Persönlichkeit, zu Deinem gewünschten Ergebnis mit der gewünschten Wirkung.</p>
       </div>
+        <h4>Meine Leistungen:</h4>
+        <div class="myWork">
+            <div class="myWorkLeft">
+                <ul>
+                    <li>Gedanken und Emotionen kontrollieren</li>
+                    <li>Stress abbauen</li>
+                    <li>Blockaden lösen</li>
+                    <li>Leistung steigern</li>
+                    <li>Gesund abnehmen</li>
+                    <li>Harmonie leben</li>
+                </ul>
+            </div>
+            <div class="myWorkRight">
+                <ul>
+                    <li>Konzentration steigern</li>
+                    <li>Verspannungen lösen</li>
+                    <li>Klarheit erlangen</li>
+                    <li>Rauchfrei werden</li>
+                    <li>Balance schaffen</li>
+                    <li>Selbstbewusst werden</li>
+                </ul>
+            </div>
+
+        </div>
     </div>
     <div class="right">
       <div class="right-content">
