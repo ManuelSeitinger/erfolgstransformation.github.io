@@ -49,17 +49,27 @@ body, html {
 
 .myWork{
     display: flex;
-
 }
 
 .myWorkLeft{
    flex:50%;
 }
 
+.listingLeft{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 .myWorkRight{
   flex:50%;
-
 }
+
+.listingRight{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 
 #portrait{
  display: block;
@@ -175,7 +185,22 @@ footer{
     animation: reveal 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
+    .heading{
+        padding-top: 16vh;
+    }
+
+    .heading > h2{
+        font-size: 60px;
+        font-weight: bold;
+        margin: 0 2% 0 2%;
+        padding: 4px;
+        animation: reveal-small 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
+    }
+}
+
+
+@media (max-width: 700px) {
     .heading{
         padding-top: 18vh;
     }
@@ -185,9 +210,10 @@ footer{
         font-weight: bold;
         margin: 0 2% 0 2%;
         padding: 4px;
-	animation: reveal-small 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
+        animation: reveal-small 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
     }
 }
+
 
 @keyframes glow {
     0% { color: black;
@@ -205,7 +231,7 @@ footer{
 }
 
 @keyframes reveal {
-    80% { letter-spacing: 10px;}
+    80% { letter-spacing: 4px;}
     100% { background-size: 500% 500%}
 }
 
@@ -267,6 +293,7 @@ footer{
         <h4>Meine Leistungen:</h4>
         <div class="myWork">
             <div class="myWorkLeft">
+                <div class="listingLeft">
                 <ul style="text-align: left">
                     <li>Gedanken und Emotionen kontrollieren</li>
                     <li>Stress abbauen</li>
@@ -275,8 +302,10 @@ footer{
                     <li>Gesund abnehmen</li>
                     <li>Harmonie leben</li>
                 </ul>
+                </div>
             </div>
             <div class="myWorkRight">
+                <div class="listingRight">
                 <ul style="text-align: left">
                     <li>Konzentration steigern</li>
                     <li>Verspannungen lösen</li>
@@ -285,8 +314,8 @@ footer{
                     <li>Balance schaffen</li>
                     <li>Selbstbewusst werden</li>
                 </ul>
+                </div>
             </div>
-
         </div>
     </div>
     <div class="right">
