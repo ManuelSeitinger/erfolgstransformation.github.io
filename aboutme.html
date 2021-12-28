@@ -3,86 +3,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Exo 2' >
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-<title>Christopher Kendi - Impressum</title>
-<style>
-  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+<link rel="stylesheet" href="src/aboutme_style.css">
 
-  body, html {
-    padding:0 !important;
-    margin: 0 !important;
-    height: 100%;
-    line-height: 1.8;
-  }
+<title>Christopher Kendi - Über mich</title>
 
-  .w3-theme-d3 {color:#fff !important; background-color:#e11600 !important}
-
-  .container-header{
-    text-align: center;
-    padding:15px;
-    font-weight: bold;
-  }
-
-  #portrait{
-      display: flex;
-      justify-content: center;
-      margin-top: 10px;
-      margin-left: 20vw;
-      margin-right: auto;
-      width: 50%;
-  }
-
-  @media (max-width: 700px) {
-    .left, .right {
-      flex: 100%;
-    }
-  }
-
-  .content{
-    margin-left: 20vw;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
-    width: 40vw;
-  }
-
-  footer{
-    display: grid;
-    justify-content: center;
-    width: 100%;
-    height: 15vh;
-    background-color: #848484;
-  }
-
- .flex-grid{
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
- }
-  .flex-grid-item{
-    text-align: center;
-    margin-bottom: 4%;
-    width: 48%;
-    border-radius: 8px;
-  }
-
-</style>
 <body>
 
-<div class="">
-  <div class="w3-bar w3-xlarge w3-card" style="background-color: #848484" id="topnav">
-    <a href="index.html" class="w3-bar-item w3-button w3-wide w3-text-black"><i class="fas fa-arrow-left w3-jumbo"></i></a>
-  </div>
+<div class="topnav" id="topnav">
+    <a href="index.html#home" title="HOME - Christopher Kendi Homepage" class="topnav-item">Christopher Kendi</a>
+    <a style="float:right" href="index.html#contact" title="Kontakt - Christopher Kendi kontaktieren" class="topnav-item w3-hide-small">Kontakt</a>
+    <a style="float:right" href="aboutme.html" title="Christopher Kendi - Mehr über mich erfahren" class="topnav-item w3-hide-small">Über mich</a>
+    <a style="float:right" href="index.html#offer" title="Angebot - Angebot für Dich von Christopher Kendi" class="topnav-item w3-hide-small">Angebot</a>
+    <a style="float:right" href="index.html#pillar" title="Transformation - Die 4 Säulen der Transformation" class="topnav-item w3-hide-small">Coaching</a>
+
+    <a href="javascript:void(0)" class="hamMenu w3-hide-large w3-hide-medium" onclick="openSidebar()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 
-<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; background-color: #848484 " id="sidenav">
-  <a href="javascript:void(0)" onclick="closeSidebar()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-text-black">Schließen</a>
+<nav class="w3-sidebar  w3-bar-block  w3-card w3-animate-left w3-hide-medium w3-hide-large" id="sidenav">
+    <div class="sidenav-item">
+        <li><a href="javascript:void(0)" onclick="closeSidebar()" id="close">Schließen</a></li>
+        <li><a href="index.html#pillar" onclick="closeSidebar()">Coaching</a></li>
+        <li><a href="index.html#offer" onclick="closeSidebar()">Angebot</a></li>
+        <li><a href="aboutme.html" onclick="closeSidebar()">Über mich</a></li>
+        <li><a href=index.html#contact" onclick="closeSidebar()">Kontakt</a></li>
+    </div>
 </nav>
 
-<div class="container-header w3-light-grey">
-  <h1 class="w3-xxxlarge">Über mich</h1>
+<div class="header">
+    <div class="header_img">
+    </div>
+    <div class="header_text">
+      <h1>Hallo!<br>
+      <div class="sm_text">
+          Ich bin Christopher Kendi
+      </div></h1>
+    </div>
 </div>
-<img id="portrait" src="test1_sm.png" alt="Profilbild von Christopher Kendi">
+
 <div class="content">
 
   <div class="impressum">
@@ -122,10 +83,26 @@
 </div>
 
 <footer>
-  <div class="container-footer">
-    <p class="copyright"><i class="fas fa-copyright"> 2021 Copyright by Christopher Kendi</i></p>
-  </div>
+    <div class="footer-content">
+        <p><i class="fas fa-copyright"> 2021 Copyright by Christopher Kendi | </i><a href="impressum.html"> Impressum</a></p>
+    </div>
 </footer>
+
+<script>
+
+    function openSidebar() {
+        var x = document.getElementById("sidenav");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    function closeSidebar() {
+        sidenav.style.display = "none";
+    }
+</script>
+
 
 </body>
 </html>
