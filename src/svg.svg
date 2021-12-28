@@ -1,0 +1,24 @@
+<svg width="1140" height="1024" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="svg_5_blur">
+   <feGaussianBlur stdDeviation="0.1" in="SourceGraphic"/>
+  </filter>
+  <linearGradient y2="0.46954" x2="0.53906" y1="0.98517" x1="0.53516" id="svg_13">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#810000"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#1c1c1c"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_19">
+   <path stroke="#d31b1b" filter="url(#svg_5_blur)" id="svg_5" d="m250.12687,81.71l437.6664,0l0,371.73328l-218.83335,92.93342l-218.8333,-92.93342l0.00025,-371.73328z" fill="url(#svg_13)"/>
+   <path stroke="#000" id="svg_6" d="m465.98618,465.70316l1.31742,0l0,0.79772l-0.65871,0.19943l-0.65871,-0.19943l0,-0.79772z" fill="#845335"/>
+   <text stroke="#d31b1b" transform="matrix(1.43799 0 0 1.33778 -154.482 -52.5752)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_11" y="164.88299" x="298.7379" fill="#ffffff">Gedanken und Emotionen kontrollieren</text>
+   <text stroke="#d31b1b" transform="matrix(1.43799 0 0 1.33778 -154.482 -52.5752)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_14" y="191.71623" x="298.12303" fill="#ffffff">Stress abbauen</text>
+   <text stroke="#d31b1b" transform="matrix(1.43799 0 0 1.33778 -154.482 -52.5752)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_15" y="220.78557" x="299.35277" fill="#ffffff">Blockaden lösen</text>
+   <text stroke="#d31b1b" transform="matrix(1.43799 0 0 1.33778 -154.482 -52.5752)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_16" y="249.10954" x="298.12303" fill="#ffffff">Leistung steigern</text>
+   <text stroke="#d31b1b" transform="matrix(1.43799 0 0 1.33778 -154.482 -52.5752)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_17" y="275.94277" x="298.7379" fill="#ffffff">Gesund abnehmen</text>
+   <text stroke="#d31b1b" transform="matrix(1.43799 0 0 1.33778 -154.482 -52.5752)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_18" y="305.75747" x="298.12303" fill="#ffffff">Harmonie leben</text>
+  </g>
+ </g>
+</svg>

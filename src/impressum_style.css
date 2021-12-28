@@ -1,0 +1,142 @@
+body, html {
+    padding:0 !important;
+    margin: 0 !important;
+    height: 100%;
+    line-height: 1.8;
+}
+
+
+
+
+.topnav {
+    background-color: #1C1C1C;
+    font-family: 'Exo 2', Helvetica, Arial;
+    color: white;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    z-index: 1;
+    height: 12vh;
+    box-shadow: 0px 1px 8px 6px #C50000;
+}
+
+
+.topnav-item{
+    font-family: 'Exo 2', Helvetica, Arial;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.topnav-item-right{
+    float: right;
+    margin-right: 15px;
+}
+
+.topnav-item:hover{
+    color: rgba(197,0,0,0.8);
+    box-shadow: inset 0 -1px 0 0 #C50000;
+}
+
+
+#sidenav{
+    display: none;
+    background-color: #1C1C1C;
+}
+
+.sidenav-item li{
+    font-family: 'Exo 2', Helvetica, Arial;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding:10px;
+}
+
+.sidenav-item a{
+    font-family: 'Exo 2', Helvetica, Arial;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding:10px;
+}
+
+.sidenav-item a:hover{
+    color: rgba(197,0,0,0.8);
+    box-shadow: inset 0 -1px 0 0 #C50000;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 20vh;
+    background-color: #1C1C1C;
+    text-align: center;
+    box-shadow: 0px 5px 10px 8px #C50000;
+
+}
+
+.footer-content{
+    color: white;
+    padding-top: 5px;
+    font-family: 'Exo 2', Helvetica, Arial;
+    font-size: 10px;
+    margin-top: auto;
+
+}
+
+.content{
+    width: 60vw;
+    text-align: justify;
+    margin: 10% 0 5% 20%;
+}
+
+.footer-content a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1281px) {
+    .topnav {
+        background-color: #1C1C1C;
+        font-family: 'Exo 2', Helvetica, Arial;
+        color: white;
+        position: fixed;
+        top:0;
+        width: 100vw;
+        z-index: 1;
+        height: 8vh;
+        box-shadow: 0px 1px 8px 6px #C50000;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .topnav {
+        background-color: #1C1C1C;
+        font-family: 'Exo 2', Helvetica, Arial;
+        color: white;
+        position: fixed;
+        top:0;
+        width: 100vw;
+        z-index: 1;
+        height: 7vh;
+        box-shadow: 0px 1px 8px 6px #C50000;
+    }
+
+    .hamMenu{
+        color:white;
+        float: right;
+        padding: 12px;
+        right: 1vw;
+    }
+
+    .content{
+        width: 65vw;
+        text-align: justify;
+        margin: 30% 0 5% 20%;
+    }
+}
