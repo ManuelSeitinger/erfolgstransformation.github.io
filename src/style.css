@@ -150,9 +150,9 @@ p{
     display: flex;
     flex: 48%;
     align-items: center;
-    background-image: url("svg.svg");
+    background-image: url("leftBanner.svg");
     background-repeat: no-repeat;
-    background-size: 175% 175%;
+    background-size: 160% 120%;
     transform: translateX(-15%);
 }
 
@@ -161,10 +161,10 @@ p{
     font-family: 'Exo 2', Helvetica, Arial;
     display: flex;
     flex: 48%;
-    background-image: url("svg_5.svg");
+    background-image: url("rightBanner.svg");
     background-repeat: no-repeat;
-    background-size: 175% 175%;
-    transform: translate(-15%, -5%);
+    background-size: 160% 120%;
+    transform: translate(-20%);
 }
 
 
@@ -692,9 +692,9 @@ footer{
         font-family: 'Exo 2', Helvetica, Arial;
         display: flex;
         flex: 100%;
-        background-image: url("svg.svg");
+        background-image: url("leftBanner.svg");
         background-repeat: no-repeat;
-        background-size: 160% 175%;
+        background-size: 150% 150%;
     }
 
 
@@ -702,8 +702,8 @@ footer{
         font-family: 'Exo 2', Helvetica, Arial;
         display: flex;
         flex: 100%;
-        background-image: url("svg_5.svg");
+        background-image: url("rightBanner.svg");
         background-repeat: no-repeat;
-        background-size: 170% 175%;
+        background-size: 150% 150%;
     }
 }
