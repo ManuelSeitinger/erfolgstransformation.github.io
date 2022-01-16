@@ -1,32 +1,32 @@
 <svg width="1140" height="1024" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <filter id="svg_5_blur">
-   <feGaussianBlur in="SourceGraphic" stdDeviation="0.1"/>
+   <feGaussianBlur stdDeviation="0.1" in="SourceGraphic"/>
   </filter>
-  <linearGradient id="svg_13" x1="0.53516" y1="0.98517" x2="0.53906" y2="0.46954">
-   <stop stop-color="#810000" stop-opacity="0.99609" offset="0"/>
-   <stop stop-color="#1c1c1c" stop-opacity="0.99609" offset="1"/>
+  <linearGradient y2="0.46954" x2="0.53906" y1="0.98517" x1="0.53516" id="svg_13">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#810000"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#1c1c1c"/>
   </linearGradient>
  </defs>
  <g>
   <title>Layer 1</title>
-  <g stroke="null" id="svg_19">
-   <path stroke="#d31b1b" fill="url(#svg_13)" d="m243.9895,125.5469l493.80376,0l0,411.86377l-246.90204,102.96605l-246.90199,-102.96605l0.00029,-411.86377l-0.00001,0z" id="svg_5" filter="url(#svg_5_blur)"/>
-   <path stroke="#000" fill="#845335" d="m417.58361,119.99955l1.4864,0l0,0.88384l-0.7432,0.22096l-0.7432,-0.22096l0,-0.88384l-0.00001,0z" id="svg_6"/>
-   <text stroke="#d31b1b" fill="#ffffff" x="257.39218" y="-101.22953" id="svg_11" stroke-width="0" font-size="15" font-family="'Exo'" text-anchor="start" xml:space="preserve" font-style="normal" font-weight="normal" transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)">Gedanken und Emotionen kontrollieren</text>
-   <text stroke="#d31b1b" fill="#ffffff" x="256.77731" y="-74.39629" id="svg_14" stroke-width="0" font-size="15" font-family="'Exo'" text-anchor="start" xml:space="preserve" font-style="normal" font-weight="normal" transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)">Stress abbauen</text>
-   <text stroke="#d31b1b" fill="#ffffff" x="258.00705" y="-45.32695" id="svg_15" stroke-width="0" font-size="15" font-family="'Exo'" text-anchor="start" xml:space="preserve" font-style="normal" font-weight="normal" transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)">Blockaden lösen</text>
-   <text stroke="#d31b1b" fill="#ffffff" x="256.77731" y="-17.00298" id="svg_16" stroke-width="0" font-size="15" font-family="'Exo'" text-anchor="start" xml:space="preserve" font-style="normal" font-weight="normal" transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)">Leistung steigern</text>
-   <text stroke="#d31b1b" fill="#ffffff" x="257.39218" y="9.83025" id="svg_17" stroke-width="0" font-size="15" font-family="'Exo'" text-anchor="start" xml:space="preserve" font-style="normal" font-weight="normal" transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)">Gesund abnehmen</text>
-   <text stroke="#d31b1b" fill="#ffffff" x="256.77731" y="39.64495" id="svg_18" stroke-width="0" font-size="15" font-family="'Exo'" text-anchor="start" xml:space="preserve" font-style="normal" font-weight="normal" transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)">Harmonie leben</text>
+  <g id="svg_19" stroke="null">
+   <path filter="url(#svg_5_blur)" id="svg_5" d="m243.9895,125.5469l493.80376,0l0,411.86377l-246.90204,102.96605l-246.90199,-102.96605l0.00029,-411.86377l-0.00001,0l-0.00001,0z" fill="url(#svg_13)" stroke="#d31b1b"/>
+   <path id="svg_6" d="m417.58361,119.99955l1.4864,0l0,0.88384l-0.7432,0.22096l-0.7432,-0.22096l0,-0.88384l-0.00001,0l0.00001,0z" fill="#845335" stroke="#000"/>
+   <text transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_11" y="-101.22953" x="257.39218" fill="#ffffff" stroke="#d31b1b">Gedanken und Emotionen kontrollieren</text>
+   <text transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_14" y="-74.39629" x="256.77731" fill="#ffffff" stroke="#d31b1b">Stress abbauen</text>
+   <text transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_15" y="-45.32695" x="258.00705" fill="#ffffff" stroke="#d31b1b">Blockaden lösen</text>
+   <text transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_16" y="-17.00298" x="256.77731" fill="#ffffff" stroke="#d31b1b">Leistung steigern</text>
+   <text transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_17" y="9.83025" x="257.39218" fill="#ffffff" stroke="#d31b1b">Gesund abnehmen</text>
+   <text transform="matrix(1.62244 0 0 1.48221 -215.388 -59.7976)" font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="15" stroke-width="0" id="svg_18" y="39.64495" x="256.77731" fill="#ffffff" stroke="#d31b1b">Harmonie leben</text>
   </g>
-  <text font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="21" id="svg_1" y="183" x="274" stroke-width="0" fill="#ffffff" stroke="#000">Gedanken und Emotionen kontrollieren</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="21" id="svg_3" y="230" x="272" stroke-width="0" fill="#ffffff" stroke="#000">Resilienz verbessern</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="21" id="svg_4" y="275" x="273" stroke-width="0" fill="#ffffff" stroke="#000">Blockaden lösen</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="21" id="svg_8" y="319" x="273" stroke-width="0" fill="#ffffff" stroke="#000">Leistungskraft steigern</text>
-  <text xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="21" id="svg_9" y="362" x="273" stroke-width="0" fill="#ffffff" stroke="#000">Klarheit erlangen</text>
-  <text fill="#ffffff" stroke-width="0" x="273" y="402" id="svg_7" font-size="21" font-family="'Exo'" text-anchor="start" xml:space="preserve" stroke="#000">Selbstbewusst werden</text>
-  <text style="cursor: move;" fill="#ffffff" stroke-width="0" x="271" y="442" id="svg_2" font-size="21" font-family="'Exo'" text-anchor="start" xml:space="preserve" stroke="#000">Balance schaffen</text>
-  <text style="cursor: move;" fill="#ffffff" stroke-width="0" x="268" y="486" id="svg_10" font-size="21" font-family="'Exo'" text-anchor="start" xml:space="preserve" stroke="#000">Umsetzungsstark werden</text>
+  <text stroke="#000" fill="#ffffff" stroke-width="0" x="274" y="183" id="svg_1" font-size="21" font-family="'Exo'" text-anchor="start" xml:space="preserve" font-weight="normal">Gedanken und Emotionen kontrollieren</text>
+  <text stroke="#000" fill="#ffffff" stroke-width="0" x="272" y="230" id="svg_3" font-size="21" font-family="'Exo'" text-anchor="start" xml:space="preserve">Resilienz verbessern</text>
+  <text style="cursor: move;" stroke="#000" fill="#ffffff" stroke-width="0" x="273" y="275" id="svg_4" font-size="21" font-family="'Exo'" text-anchor="start" xml:space="preserve">Blockaden auflösen</text>
+  <text stroke="#000" fill="#ffffff" stroke-width="0" x="273" y="319" id="svg_8" font-size="21" font-family="'Exo'" text-anchor="start" xml:space="preserve">Leistungskraft steigern</text>
+  <text stroke="#000" fill="#ffffff" stroke-width="0" x="273" y="362" id="svg_9" font-size="21" font-family="'Exo'" text-anchor="start" xml:space="preserve">Klarheit erlangen</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="21" id="svg_7" y="402" x="273" stroke-width="0" fill="#ffffff">Selbstbewusst werden</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="21" id="svg_2" y="442" x="271" stroke-width="0" fill="#ffffff">Balance schaffen</text>
+  <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Exo'" font-size="21" id="svg_10" y="486" x="268" stroke-width="0" fill="#ffffff">Umsetzungsstark werden</text>
  </g>
 </svg>
