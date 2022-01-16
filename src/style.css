@@ -705,5 +705,6 @@ footer{
         background-image: url("rightBanner.svg");
         background-repeat: no-repeat;
         background-size: 150% 150%;
+        transform: translateX(-15%);
     }
 }
