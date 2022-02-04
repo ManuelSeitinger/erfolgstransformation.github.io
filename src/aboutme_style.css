@@ -155,7 +155,7 @@ footer{
         text-align: center;
         transform: rotate(180deg);
         font-family: 'Exo 2', Helvetica, Arial;
-        transform-origin: 160px 200px;
+        transform-origin: 195px 200px;
         font-size: 80px;
     }
 
@@ -163,6 +163,8 @@ footer{
         font-size: 60px;
     }
 }
+
+
 
 @media screen and (max-width: 450px) {
     .topnav {
