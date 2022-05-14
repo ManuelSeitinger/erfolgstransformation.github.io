@@ -572,6 +572,13 @@ footer{
         animation: reveal-small 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
     }
 
+    .heading > h2{
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 2% 0 2%;
+        padding: 4px;
+    }
+
     .listing{
         font-family: 'Exo 2', Helvetica, Arial;
         text-align: justify;
