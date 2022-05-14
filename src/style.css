@@ -533,6 +533,13 @@ footer{
         padding: 2px;
         animation: reveal-small 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
     }
+
+    .heading > h3{
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0 2% 0 2%;
+        padding: 4px;
+    }
 }
 
 /*Query for heading for medium screens*/
