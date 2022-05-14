@@ -572,7 +572,7 @@ footer{
         animation: reveal-small 3000ms ease-in-out forwards 200ms, glow 5000ms linear infinite;
     }
 
-    .heading > h2{
+    .heading > h3{
         font-size: 14px;
         font-weight: bold;
         margin: 0 2% 0 2%;
