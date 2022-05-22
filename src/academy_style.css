@@ -200,11 +200,17 @@ footer{
         text-align: center;
         transform: rotate(180deg);
         font-family: 'Exo 2', Helvetica, Arial;
-        transform-origin: 0px 35px;
+        transform-origin: 15px 35px;
         font-size: 25px;
     }
 
     .sm_text{
         font-size: 15px;
     }
+
+    .impressum{
+        width: 70vw;
+        margin-left: -5vw;
+    }
+
 }
