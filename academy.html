@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Exo 2' >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="src/academy_style.css">
+
+<title>Christopher Kendi - Akademie</title>
+
+<body>
+
+<div class="topnav" id="topnav">
+    <a href="index.html#home" title="HOME - Christopher Kendi Homepage" class="topnav-item">Christopher Kendi</a>
+    <a style="float:right" href="index.html#contact" title="Kontakt - Christopher Kendi kontaktieren" class="topnav-item w3-hide-small">Kontakt</a>
+    <a style="float:right" href="aboutme.html" title="Christopher Kendi - Mehr über mich erfahren" class="topnav-item w3-hide-small">Über mich</a>
+    <a style="float:right" href="index.html#offer" title="Angebot - Angebot für Dich von Christopher Kendi" class="topnav-item w3-hide-small">Angebot</a>
+    <a style="float:right" href="index.html#pillar" title="Transformation - Die 4 Säulen der Transformation" class="topnav-item w3-hide-small">Coaching</a>
+    <a style="float:right" href="academy.html" title="Transformation - Die 4 Säulen der Transformation" class="topnav-item w3-hide-small">Akademie</a>
+
+    <a href="javascript:void(0)" class="hamMenu w3-hide-large w3-hide-medium" onclick="openSidebar()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<nav class="w3-sidebar  w3-bar-block  w3-card w3-animate-left w3-hide-medium w3-hide-large" id="sidenav">
+    <div class="sidenav-item">
+        <li><a href="javascript:void(0)" onclick="closeSidebar()" id="close">Schließen</a></li>
+        <li><a href="index.html#pillar" onclick="closeSidebar()">Coaching</a></li>
+        <li><a href="index.html#offer" onclick="closeSidebar()">Angebot</a></li>
+        <li><a href="aboutme.html" onclick="closeSidebar()">Über mich</a></li>
+        <li><a href=index.html#contact" onclick="closeSidebar()">Kontakt</a></li>
+        <li><a href=academy.html" onclick="closeSidebar()">Akademie</a></li>
+    </div>
+</nav>
+
+<div class="header">
+    <div class="header_img">
+
+    </div>
+    <div class="header_text">
+        <h1>Akademie<br></h1>
+    </div>
+</div>
+
+<div class="content">
+
+  <div class="impressum">
+
+      <p>Deine Aus/Weiterbildung zum Coach/Trainer mit Option auf die Berechtigung des Unterrichts der Erfolgstransformations Methode ®️</p>
+      <p>Online, flexibel und berufsbegleitend</p>
+      <p>Veranstaltungsort : ONLINE / LIVE WEBINARE</p>
+      <p>Dauer : 6 Monate</p>
+      <p>Kosten : € 5.490,-</p>
+      <p>Der Einstieg in die Erfolgstransformations Akademie ist jederzeit möglich.</p>
+
+
+  </div>
+  </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <p><i class="fas fa-copyright"> 2021 Copyright by Christopher Kendi | </i><a href="impressum.html"> Impressum</a></p>
+    </div>
+</footer>
+
+<script>
+
+    function openSidebar() {
+        var x = document.getElementById("sidenav");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    function closeSidebar() {
+        sidenav.style.display = "none";
+    }
+</script>
+
+
+</body>
+</html>
