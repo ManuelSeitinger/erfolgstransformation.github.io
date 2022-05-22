@@ -124,7 +124,7 @@ footer{
     text-align: center;
     transform: rotate(180deg);
     font-family: 'Exo 2', Helvetica, Arial;
-    transform-origin: 80px 120px;
+    transform-origin: 0px 120px;
     font-size: 60px;
 }
 
@@ -200,12 +200,11 @@ footer{
         text-align: center;
         transform: rotate(180deg);
         font-family: 'Exo 2', Helvetica, Arial;
-        transform-origin: 45px 35px;
+        transform-origin: 0px 35px;
         font-size: 25px;
     }
 
     .sm_text{
         font-size: 15px;
     }
-
 }
